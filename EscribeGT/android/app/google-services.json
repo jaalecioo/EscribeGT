@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1032544737688",
+    "project_id": "trazado-41aa1",
+    "storage_bucket": "trazado-41aa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032544737688:android:67b5a5a4b04a3ffa30f3ed",
+        "android_client_info": {
+          "package_name": "com.example.sdkidsfv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032544737688-h9u6lo7l8vbqjgmgt9d7f5lm4vok94iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATcn5VS4IvgcTPX7xvWIo0FogpKfzk_og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032544737688-h9u6lo7l8vbqjgmgt9d7f5lm4vok94iv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032544737688-6liitghrn2j3h7mbrc8f7uqo53mjqigk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sdkidsfv"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

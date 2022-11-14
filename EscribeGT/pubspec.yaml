@@ -1,0 +1,39 @@
+name: EscribeGT
+description: A new Flutter project.
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/favicon.ico"
+
+dependencies:
+  google_fonts: ^3.0.1
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  font_awesome: ^5.10.1
+  font_awesome_flutter: ^10.2.1
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.2
+  scribble: ^0.9.1
+  image_compare: ^1.1.2
+  image_picker: ^0.8.6
+  firebase: ^9.0.3
+  firebase_storage: ^11.0.4
+  permission_handler: ^10.2.0
+  cloud_firestore: ^4.0.4
+  firebase_database: ^10.0.4
+firebase_core: ^0.4.5
+image_picker: ^0.6.7+14
+firebase_storage: ^3.1.6
+permission_handler: ^5.0.1+1
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.10.0"
+  flutter_test:
+    sdk: flutter
