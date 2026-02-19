@@ -32,14 +32,12 @@ Fue desarrollada como respuesta a la brecha educativa generada por la pandemia d
 
 | Tecnología | Uso |
 |---|---|
-| Flutter 3.x | Framework principal de desarrollo |
-| Dart 3.x | Lenguaje de programación |
+| Flutter 3.41 | Framework principal de desarrollo |
+| Dart 3.11 | Lenguaje de programación |
 | Firebase Firestore | Base de datos NoSQL en la nube |
-| Firebase Storage | Almacenamiento de imágenes de trazos |
-| Firebase Database | Base de datos en tiempo real |
 | Google Fonts | Tipografías (Handlee y Roboto) |
 | Scribble | Pizarra de dibujo libre |
-| Image Compare | Comparación de trazos para calificación |
+| package:image | Procesamiento y comparación de trazos |
 
 ---
 
@@ -92,12 +90,20 @@ flutter run
 
 ```
 lib/
-├── main.dart              # Pantalla inicial (selección de edad)
+├── main.dart                  # Pantalla inicial (selección de edad)
+├── firebase_options.dart      # Configuración de Firebase (no incluido en el repo)
 ├── screens/
-│   ├── levels.dart        # Pantalla de selección de ejercicio
-│   └── board.dart         # Pizarra de trazado y calificación
+│   ├── levels.dart            # Pantalla de selección de ejercicio
+│   └── board.dart             # Pizarra de trazado y calificación
+├── scoring/
+│   ├── scoring_engine.dart    # Motor de comparación de trazos
+│   └── scoring_config.dart    # Configuración de tolerancia por edad
+├── utils/
+│   └── image_utils.dart       # Utilidades de procesamiento de imagen
+└── theme/
+    └── app_theme.dart         # Colores y estilos globales
 assets/
-│   └── favicon.ico        # Icono de la aplicación
+└── ejercicios/                # Imágenes de referencia de los ejercicios
 android/
 ios/
 web/
@@ -132,7 +138,10 @@ Universidad Mariano Gálvez de Guatemala — Julio 2022
 
 ## Estado del proyecto
 
-> 🔄 **En actualización** — El proyecto está siendo retomado y modernizado en 2026 para corregir dependencias deprecated y migrar a Flutter 3.41 / Dart 3.11.
+| Año | Evento |
+|---|---|
+| 2022 | Aplicación creada como proyecto de tesis de graduación |
+| 2026 | Aplicación actualizada a una versión moderna (Flutter 3.41 / Dart 3.11) |
 
 ---
 
